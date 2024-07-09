@@ -18,8 +18,8 @@
         }
 
         .qr-main{
-            width: 250px;
-            height: 420px;
+            width: 320px;
+            height: 497px;
             border-radius: 20px;
             background-color: #ffff;
             margin: auto;
@@ -31,32 +31,39 @@
             text-align: center;
         }
         .main-qr img{
-            width: 220px;
+            width: 288px;
             border-radius: 10px;
             
         }
         
-        .main-font{
+        p{
+            margin: 0px;
+        }
+        .main-fonts{
+            height: 129px;
+            width: 288px;
             margin: auto;
-            margin-top: 15px;
-            width: 220px;
             text-align: center;
-        }
-        .main-font:nth-of-type(2){
-            font-weight: 700;
-        }
-        .main-font:nth-of-type(3){
-            font-weight:400;
-            color: hsl(220, 15%, 55%);
-        }
-        .attribution {
-            font-size: 11px;
-            text-align: center;
+            margin-top: 24px;
             
         }
-
-        .attribution a {
-            color: hsl(228, 45%, 44%);
+        .font1{
+            width: 288px;
+            height: 57px;
+            
+        }
+        .font2{
+            margin: auto;
+            width: 256px;
+            height: 56px;
+            
+        }
+        .main-font:nth-of-type(1){
+            font-weight: 700;
+        }
+        .main-font:nth-of-type(2){
+            font-weight:400;
+            color: hsl(220, 15%, 55%);
         }
     </style>
 </head>
@@ -65,14 +72,14 @@
 
     <div class="qr-main">
         <div class="main-qr"><img src="./images/image-qr-code.png" alt=""></div>
-        <div class="main-font">Improve your front-end skills by building projects</div>
-        <div class="main-font">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
-    </div>
+        <div class="main-fonts">
+            <div class="main-font font1" ><p class="font1-p">Improve your front-end skills by building projects</p></div>
+            <div class="main-font font2"><p class="font2-p">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p></div>
+    
+        </div>
+        </div>
 
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
-    </div>
+    
 </body>
 
 </html>
